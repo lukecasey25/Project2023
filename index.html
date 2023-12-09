@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LGC Landscaping</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+<body style="background-color: lavender;">
+     <script src="project.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!--Navbar Code with Search bar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src= "images/logo.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Frequently visited
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="newsletter.html">Newsletter</a></li>
+            <li><a class="dropdown-item" href="availability.html">Availability</a></li>
+            <li><a class="dropdown-item" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Game</a></li>
+
+          </ul>
+        </li>
+      </ul>
+    </div>
+     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </div>
+</nav>
+
+<!--Carosel-->
+
+  <div class="col-12 col-sm-12">
+      <div id="carouselExampleFade" class="carousel slide carousel-fade">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/gardening-lawn-tree-shade-1600x400.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/lush-lawn-blog.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="images/15.jpg"class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<div class="accordion" id="accordionExample" >
+  <div class="accordion-item"> 
+    <h2 class="accordion-header"> 
+
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        What Do We Offer?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>LGC Landscaping. </strong>We provide lawn mowing, walkway and driveway edging, leaf blowing and a few other services. These can include transplanting or pruning shrubs, spraying for weeds, cutting branches off trees, managing flower beds, installing walking paths and lighting and prepping lawns in fall and spring by thatch raking, aerating and applying seed and fertilizer.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item" >
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Reocurring landscaping jobs
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>Do you have a business that requires reocurring landscaping jobs?</strong>  Please contact <a href="contact.html">here</a> to discuss in further detail.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Quote
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <form class="quoteForm" id="quoteForm">
+
+        Number of Visits <input type="number" id="visits" size="20" name="Number of Visits"><br></br>
+
+        Size of area (Square Meters) <input type="number" id="sizeArea" size="20" name="Square Meter"> <button id="popcorn" type="button" class="btn btn-danger" data-bs-toggle="popover" data-bs-placement="top" title="This is only a rough estimate, other charges may apply.">?</button><p id="quoteResult"></p>
+
+  <select class="form-select" aria-label="Default select example" id="job">
+  <option selected>Choose job type</option>
+  <option value="1">Lawn</option>
+  <option value="2">Low Maintenance</option>
+  <option value="3">Decking</option>
+  <option value="4">Patio</option>
+  <option value="5">Gravel</option>
+  <option value="6">Child Friendly</option>
+</select>
+        <input id="quoteButton" type="submit" value="Submit" onclick="quoteCal();" > 
+        <input id="resetButton" type="submit" value="Reset" onclick="resetQuote();" > 
+</form>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">The Discount Game</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <h6>The is a game of chance</h6>
+    <div>
+    You will press the randomise button, this button will generate three numbers. 
+    If the numbers generated matches the number of times LGC landscape have won the Irish Landscaping Institute Awards, then you will win a prize.
+    </div>
+    <div class="dropdown mt-3">
+
+
+
+   Your Numbers for the game are: <p id="yourResult"></p>
+
+  <p id="computerResult"></p>
+
+ 
+
+      <button type="button" id="gameClick" onclick="game()">Click Me!</button>
+
+  <p id="gameResult"></p>
+
+    
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+

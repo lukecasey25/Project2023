@@ -1,0 +1,217 @@
+
+#popcorn{
+    background-color:snow;
+    color:#198754;
+      width: 25px; 
+        height: 25px; 
+        border-radius: 50%;
+        padding: 0; 
+        border-color: black;
+        margin-left: 2px;
+}
+#grass{
+    background-image: url('images/soil-and-grass-540x540.jpg')
+}
+
+#contactInfo{
+    color:white !important;
+    font-size: 20pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#contactForm{
+    color:White !important;
+    font-size: 20pt;
+}
+
+#soil{
+    background-image: url('images/Screenshot\ 2023-12-04\ at\ 18.27.00.png')
+}
+body {
+    background-color: moccasin !important;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+}
+.carousel-item.active {
+    object-fit: cover !important;
+}
+
+#job{
+background-color:#d0f0c0 ;
+margin-bottom: 10px;
+}
+#sizeArea{
+background-color:#d0f0c0 ;
+}
+#visits{
+background-color:#d0f0c0 ;
+}
+
+
+    
+.carousel-item.active img{
+    object-fit: cover !important;
+    min-width: 100% !important;
+    min-height: 100% !important;
+    
+    
+}
+#jobQuote{
+    margin-top:5px;
+    margin-bottom:10px;
+}
+#contactForm{
+    margin-top:10px !important;
+    font-size: 15pt;
+}
+
+#contactInfo{
+    margin-top:10px;
+    justify-content: center !important;
+    align-items: center !important;
+
+}
+
+.btn-outline-success {
+    background-color: mediumaquamarine !important;
+}
+
+.navbar {
+    background-color: moccasin !important;
+}
+#availContainer{
+    background-color:darkseagreen;
+    margin-top:10px !important;
+    padding-top: 20px;
+}
+
+.btn.btn-primary{
+    margin-top: 10px;
+     margin-bottom: 10px;
+    background-color:rosybrown !important;
+    border-color: #198754;
+    ---bs-btn-hover-bg: snow !important;
+    --bs-btn-hover-bg:#198754 !important;
+    --bs-btn-active-border-color: snow !important;
+    --bs-btn-active-bg: snow!important;
+    --bs-btn-active-color:#198754!important;
+}
+
+.navbar-brand img {
+    width: 150px;
+}
+
+.navbar-nav {
+    margin-left: auto;
+}
+
+.nav-link,
+.dropdown-item {
+    color:darkseagreen !important; /* Override Bootstrap's default color */
+}
+
+
+.form-control,
+.btn.btn-outline-success {
+    background-color:white !important;
+}
+
+.accordion-button{
+    background-color:darkseagreen !important;
+}
+
+#gallery{
+    font-family: serif;
+    color: white;
+    font-style: normal;
+}
+
+.col-12.col-sm-6{
+    border:transparent !important
+
+}
+
+
+
+.containerAbout{
+    background-color: darkseagreen !important;
+}
+
+.col-12.col-sm-12{
+    border: transparent !important;
+}
+.containerAbout .row .col-12.col-sm-6{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#video{
+    display: flex;
+justify-content: center;
+align-items: center;
+background-image: url('images/texture-3716826_960_720.jpg')
+}
+
+#contactContainer{
+background-image: url('images/Grass_Background.jpg')
+}
+
+#newsletterBG{
+    background-image: url('images/Screenshot\ 2023-12-05\ at\ 20.14.16.png')
+}
+
+#newsletterVideo{
+    background-color: transparent;
+    height: 500px;
+       display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#NewsInterest{
+    height:100px;
+    font-size: 60px;
+    padding-bottom:20px;
+    background-color: cadetblue !important;
+
+    
+}
+#newsletterButton{
+      --bs-btn-color: #198754 !important;
+    --bs-btn-border-color: #198754;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+    --bs-btn-bg: white !important;
+}
+
+
+.btn-outline-success {
+    --bs-btn-color: #198754 !important;
+    --bs-btn-border-color: #198754;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #198754;
+    --bs-btn-hover-border-color: #198754;
+    --bs-btn-focus-shadow-rgb: 25,135,84;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #198754;
+    --bs-btn-active-border-color: #198754;
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: #198754;
+    --bs-btn-disabled-bg: transparent;
+    --bs-btn-disabled-border-color: #198754;
+    --bs-gradient: none;
+    --bs-btn-bg: white !important;
+}

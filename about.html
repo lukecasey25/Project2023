@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LGC Landscaping</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+<body style="background-color: lavender;">
+    <script src="project.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <!--Navbar Code with Search bar-->
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container">
+    <a class="navbar-brand" href="index.html"><img src= "images/logo.png" alt="logo"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Frequently visited
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="newsletter.html">Newsletter</a></li>
+            <li><a class="dropdown-item" href="availability.html">Availability</a></li>
+            <li><a class="dropdown-item" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">Game</a></li>
+
+          </ul>
+        </li>
+      </ul>
+    </div>
+     <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+    <button class="btn btn-outline-success" type="submit">Search</button>
+  </div>
+</nav>
+
+<!--Carosel-->
+
+<div class="containerAbout">
+  <div class="row">
+        <div class="col-12 col-sm-12" id="video">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/4QwTkYekQJQ" frameborder="0" allowfullscreen></iframe>
+      </div>
+    <div class="col-12 col-sm-6" id="grass">
+        <div class="card" style="width: 18rem;" >
+  <img src="images/images-5.jpeg" class="card-img-top" alt="..." height= "170px;">
+  <div class="card-body">
+    <h5 class="card-title">When We Began</h5>
+    <p class="card-text">Back in 1995, Luke Greg Casey and his stepson Phil Dunphy began taking on small jobs 
+        around their town to make extra money. Upon an unprecidented rise in demand, Luke and Phil decided to quit their midweek jobs and do 
+        Landscaping full-time. </p>
+  </div>
+</div>
+    </div>
+    <div class="col-12 col-sm-6" id="grass">
+        <div class="card" style="width: 18rem;">
+  <img src="images/images-6.jpeg" height= "190px;" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">From Start-up to Scale-up</h5>
+    <p class="card-text">After Three years, Luke and Greg decided that they needed more help and to broaden their horizons. This resulted
+        in taking jobs outside of dublin and hiring additional employees. The business grew from strength to strength.
+    </p>
+  </div>
+</div>
+</div>
+
+    <!-- Force next columns to break to new line -->
+    <div class="w-100"></div>
+
+    <div class="col-12 col-sm-6" id="soil"><div class="card" style="width: 18rem;" >
+  <img src="images/images-3.jpeg" class="card-img-top" alt="..." height= "150px;">
+  <div class="card-body">
+    <h5 class="card-title">Being Awarded for Excellence</h5>
+    <p class="card-text">Irish Landscaping Institute Award winner 2006,2008,2014,2019</p>
+    <a href="https://www.irishlandscapeinstitute.com/pages/17-awards" class="btn btn-primary">Irish Landscape Institute</a>
+  </div>
+</div>
+</div>
+    <div class="col-12 col-sm-6" id="soil"><div class="card" style="width: 18rem;" background>
+  <img src="images/images-4.jpeg" class="card-img-top" alt="..." height= "150px;">
+  <div class="card-body">
+    <h5 class="card-title">Future Growth</h5>
+    <p class="card-text">Currently Restricted to taking jobs in the Leinster Area, From the Spring of 2024, LGC Landscaping will begin
+        taking bookings from Munster and Connacht Provinces.</p>
+   
+  </div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasExampleLabel">The Discount Game</h5>
+    <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <h6>The is a game of chance</h6>
+    <div>
+    You will press the randomise button, this button will generate three numbers. 
+    If the numbers generated matches the number of times LGC landscape have won the Irish Landscaping Institute Awards, then you will win a prize.
+    </div>
+    <div class="dropdown mt-3">
+
+
+
+   Your Numbers for the game are: <p id="yourResult"></p>
+
+  <p id="computerResult"></p>
+
+ 
+
+      <button type="button" id="gameClick" onclick="game()">Click Me!</button>
+
+  <p id="gameResult"></p>
+
+    
+    </div>
+  </div>
+</div>
+
+
+
+</body>
+</html>
+
+
