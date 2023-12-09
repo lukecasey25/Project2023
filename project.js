@@ -42,7 +42,7 @@ function quoteCal() {
     form.addEventListener('submit', handleForm);
     //variables
     var visit = document.getElementById("visits").value;
-    var job = document.getElementById("jobQuote").value;
+    var job = document.getElementById("job").value;
     var sizeOfArea = document.getElementById("sizeArea").value;
     var quote = 0;
     var costPerSQ = 0;
